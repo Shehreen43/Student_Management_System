@@ -3,9 +3,9 @@
 This project is a simple console-based Student Management System built using TypeScript and Inquirer.js. The system allows users to manage student data by performing various operations such as adding new students, generating unique student IDs, enrolling students in courses, viewing balances, paying tuition fees, showing student status, updating student details, and deleting students.
 
 # Features
-. <h4>Add Student:</h4> Allows the user to add a new student by entering their name. The system generates a unique 5-digit student ID        for each new student.
+<h4>Add Student:</h4> Allows the user to add a new student by entering their name. The system generates a unique 5-digit student ID        for each new student.
 
-. Enroll Student in Course: Enrolls a student in a course by specifying the course name. Each course costs $600, which is added to the student's tuition balance.
+Enroll Student in Course: Enrolls a student in a course by specifying the course name. Each course costs $600, which is added to the student's tuition balance.
 
 View Balance: Displays the tuition balance of a selected student.
 
@@ -37,18 +37,18 @@ cd student-management-system
 # Install Dependencies:
 
 bash
-# Copy code
+Copy code
 npm install
 Compile TypeScript Code:
 
 bash
-# Copy code
+Copy code
 tsc
 Running the Application
 Start the Application:
 
 bash
-# Copy code
+Copy code
 node StudentManagementSystem.js
 Follow the Prompts: The application will guide you through various operations via an interactive command-line interface.
 
@@ -66,7 +66,7 @@ Here's a simple example of how the interaction with the system looks like:
 # Main Menu:
 
 sql
-# Copy code
+Copy code
 Select an action:
 > Add Student
   Enroll Student in Course
@@ -79,20 +79,20 @@ Select an action:
 Adding a Student:
 
 yaml
-# Copy code
+Copy code
 Enter student name: John Doe
 Student John Doe added with ID: 10000
 Enrolling in a Course:
 
 yaml
-# Copy code
+Copy code
 Select student: John Doe
 Enter course name: Mathematics
 Enrolled in course: Mathematics
 Viewing Balance:
 
 yaml
-# Copy code
+Copy code
 Select student: John Doe
 Tuition Balance: $600
 # License
