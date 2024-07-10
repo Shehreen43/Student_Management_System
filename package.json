@@ -1,13 +1,14 @@
 {
-  "name": "student",
+  "name": "st01_student_management_system",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a my latest project 'student Management System' create with inquirer, chalk and node.js. ",
   "main": "main.js",
   "type": "module",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "shehreen",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.23"
